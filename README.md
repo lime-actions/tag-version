@@ -1,3 +1,3 @@
-# Generic Template
+# Tag Version
 
-Generic template for creating a repository
+Create tag and update tags based on a version
