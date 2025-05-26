@@ -16,7 +16,7 @@ jobs:
         ref: ${{ github.event.pull_request.base.ref }}
     - name: Create and update tags
       id: tag
-      uses: .
+      uses: ./
     - name: Create release and add comment
       env:
         GH_TOKEN: ${{ github.token }}
